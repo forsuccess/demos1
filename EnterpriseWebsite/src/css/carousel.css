@@ -1,0 +1,62 @@
+
+.carousel-ct img {
+	width: 100%;
+	height: 800px;
+	vertical-align: bottom;
+}
+.carousel-ct li {
+	list-style: none;
+}
+.carousel-ct {
+	position: absolute;
+	width: 100%;
+	height: 800px;
+	z-index: 1;
+	/*overflow: hidden;*/
+}
+.carousel-ct .img-ct {
+	position: relative;
+	width: 100%;
+	transition: all 0.5s;
+}
+.img-ct>li {
+	position: absolute;
+	display: none;
+}
+.carousel-ct span {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	z-index: 20;
+	cursor: pointer;
+	font-size:50px;
+}
+.carousel-ct span:hover {
+	color: yellow;
+	opacity: 0.5;
+}
+.carousel-ct .next {
+	right: 20px;
+}
+.carousel-ct .previous {
+	left: 20px;
+}
+.carousel-ct .img-sign {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -75px;
+}
+.carousel-ct .img-sign li {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #fff;
+	float: left;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.carousel-ct .img-sign .sign-hover{
+	background-color: red;
+}
